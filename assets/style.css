@@ -4,6 +4,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+  overflow-x: hidden;
 }
 input,
 button {
@@ -444,7 +445,7 @@ section {
   color: white;
 }
 .ughh {
-  transition: 0.2s ease;
+  transition: 0.1s ease;
   cursor: pointer;
   background-color: #ffffff;
   box-shadow: 0px 0px 12px #0000001a;
@@ -455,8 +456,16 @@ section {
   min-height: 256px;
 }
 
-.ughh img {
+.ughh svg {
   margin-bottom: 19px;
+}
+.ughh svg, .ughh svg g, .ughh svg path {
+  fill: var(--primary);
+  stroke: var(--primary);
+}
+.ughh:hover svg, .ughh:hover svg g, .ughh:hover svg path {
+  fill: white !important;
+  stroke: white !important;
 }
 
 .ughh h1 {
@@ -504,8 +513,13 @@ section {
 }
 
 .strategy-div-main {
+  position: relative;
+  background-image: url(images/strategy-section-back-bottom.svg);
   padding: 50px 0 0 0;
   background-color: #fffcf9;
+  margin-bottom: 70px;
+  background-repeat: no-repeat;
+  background-position: left bottom 30px;
 }
 
 .strategy-div-main button {
@@ -521,7 +535,7 @@ section {
   font-weight: 400;
 }
 
-.strategy-div-main p {
+.strategy-div-main .p {
   text-align: center;
   font-size: 14px;
   font-weight: 400;
@@ -530,4 +544,10 @@ section {
 
 .startegy-top-cards {
   margin-bottom: 98px;
+}
+
+.back_img-top {
+  position: absolute;
+  right: -34px;
+  top: 169px;
 }
