@@ -12,8 +12,13 @@
         href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/owl-carousel/docs/assets/owlcarousel/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/owl-carousel/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body {
             font-family: "Roboto", sans-serif;
@@ -26,12 +31,14 @@
             text-align: center;
             font-weight: 700;
         }
-        .section-para p{
+
+        .section-para p {
             font-size: 14px;
             color: #55565A;
             text-align: center;
             font-weight: 300;
         }
+
         .header-underline {
             background-color: #906D4E;
             width: 167px;
@@ -44,11 +51,6 @@
 
         #section-OC {
             background: #FCFCFC;
-        }
-
-        .owl-carousel img {
-            width: 193px;
-            height: 75px;
         }
 
         .continue_btn button {
@@ -79,6 +81,43 @@
             font-weight: 300;
         }
 
+        .owl-logos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .owl-logos img {
+            width: auto !important;
+        }
+
+        .owl-prev {
+            width: 15px;
+            height: 100px;
+            position: absolute;
+            top: -140%;
+            margin-left: -20px;
+            display: block !important;
+            border: 0px solid black;
+        }
+
+        .owl-next {
+            width: 15px;
+            height: 100px;
+            position: absolute;
+            top: -140%;
+            right: -25px;
+            display: block !important;
+            border: 0px solid black;
+        }
+
+        .owl-prev i,
+        .owl-next i {
+            transform: scale(1, 6);
+            color: #ccc;
+        }.owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
     </style>
 </head>
 
@@ -92,15 +131,43 @@
             </div>
             <!-- owl-carousel -->
             <div class="owl-carousel">
-                <div><img style="width: 193px; height: 25px" src="assets/images/fin_net_Logo_grau.png" alt=""></div>
-                <div><img style="width: 171px; height: 25px" src="assets/images/logo-presse-handelsblatt.png" alt="">
+                <div>
+                    <div class="owl-logos">
+                        <img src="assets/images/fin_net_Logo_grau.png" alt="">
+                    </div>
                 </div>
-                <div><img style="width: 76px; height: 25px" src="assets/images/Image 1.png" alt=""></div>
-                <div><img style="width: 215px; height: 25px" src="assets/images/logo.wirtschaftswoche.png" alt=""></div>
-                <div><img style="width: 72px; height: 25px" src="assets/images/Logo-cash-online.png" alt=""></div>
-                <div><img style="width: 56px; height: 25px" src="assets/images/EuramS_Neu_bis_25mm_RGB-1.png" alt="">
+                <div>
+                    <div class="owl-logos">
+                        <img src="assets/images/logo-presse-handelsblatt.png" alt="">
+                    </div>
                 </div>
-            </div>
+                <div>
+                    <div class="owl-logos">
+                        <img src="assets/images/Image 1.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="owl-logos">
+                        <img src="assets/images/logo.wirtschaftswoche.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="owl-logos">
+                        <img src="assets/images/Logo-cash-online.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="owl-logos">
+                        <img src="assets/images/EuramS_Neu_bis_25mm_RGB-1.png" alt="">
+                    </div>
+                </div>
+            </div>    
+            <!-- <div class="owl-controls">
+                <div class="owl-nav">
+                    <div class="owl-prev"><img src="assets/images/left-arrow.svg" alt=""></div>
+                    <div class="owl-next"><img src="assets/images/right-arrow1.svg" alt=""></div>
+                </div>
+            </div> -->
         </div>
     </section>
     <!-- carousel section ends-->
@@ -177,7 +244,9 @@
                 <span class="header-underline d-block mx-auto"></span>
             </div>
             <div class="section-para mt-5">
-               <p>We have specialized in three core areas, so that we can offer our clients fee-based advice as an independent financial service free of any conflicts of interest: financial and wealth planning, retirement planning and investment advice. Where can our fee consultants start and support you?</p>
+                <p>We have specialized in three core areas, so that we can offer our clients fee-based advice as an
+                    independent financial service free of any conflicts of interest: financial and wealth planning,
+                    retirement planning and investment advice. Where can our fee consultants start and support you?</p>
             </div>
             <div class="row">
 
@@ -188,13 +257,17 @@
     <!-- fee advice section ends -->
 
     <script src="assets/jquery-3.6.0.min.js"></script>
-    <script src="assets/owl-carousel/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         $(document).ready(function () {
             $('.owl-carousel').owlCarousel({
-                loop: true,
                 margin: 10,
-                // nav:true,
+                loop: true,
+                nav: true,
+                navText:["<div class='nav-btn prev-slide'><img src='assets/images/left-arrow.svg'></div>","<div class='nav-btn next-slide'><img src='assets/images/right-arrow1.svg'></div>"],
+
                 responsive: {
                     0: {
                         items: 1
@@ -203,13 +276,14 @@
                         items: 3
                     },
                     1000: {
-                        items: 5
-                    }
+                        items: 6
+                    },
                 }
             });
         });
 
     </script>
+    
 </body>
 
 </html>
