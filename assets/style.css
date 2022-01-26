@@ -278,7 +278,7 @@ nav .links img {
 
 .section-para p {
   font-size: 14px;
-  color: #55565A;
+  color: #55565a;
   text-align: center;
   font-weight: 300;
   margin-left: auto;
@@ -329,17 +329,17 @@ section {
   font-size: 14px;
   font-weight: 300;
 }
-.fee-adv-video p{
+.fee-adv-video p {
   font-size: 14px;
   text-align: left;
   margin-bottom: 9px;
 }
-.fee-adv-video span{
-  color: #906D4E;
+.fee-adv-video span {
+  color: #906d4e;
   font-weight: 500;
 }
-.fee-adv-video a{
-  color: #906D4E;
+.fee-adv-video a {
+  color: #906d4e;
   font-weight: 400;
   text-align: center;
   text-decoration: underline;
@@ -373,6 +373,58 @@ section {
   display: block !important;
   border: 0px solid black;
 }
+
 .owl-carousel .owl-nav.disabled {
   display: block !important;
+}
+
+.fee-av-card {
+  padding: 48px 35px 21px 35px;
+  position: relative;
+}
+.fee-av-card:hover::before {
+  content: "";
+  width: 128px;
+  height: 4px;
+  border-radius: 5px;
+  background: #906D4E;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 1;
+}
+.fee-av-card:hover {
+  box-shadow: 0px 0px 12px #0000001a;
+  border-radius: 8px;
+}
+.fee-av-card:hover .read_more_btn {
+  visibility: visible;
+}
+.fee-av-card img {
+  margin-bottom: 21px;
+}
+.fee-av-card h5 {
+  font-size: 18px;
+  color: #55565a;
+}
+.fee-av-card p {
+  font-size: 14px;
+  text-align: left;
+  color: #55565a;
+}
+.fee-av-card a {
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 1px solid #906d4e;
+}
+.read_more_btn {
+  text-align: center;
+  margin-top: 45px;
+  visibility: hidden;
+}
+.read_more_btn a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #906d4e;
 }
