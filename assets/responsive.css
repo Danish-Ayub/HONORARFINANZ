@@ -1,4 +1,13 @@
 @media (max-width: 992px) {
+  nav {
+    justify-content: center;
+  }
+  nav .links:nth-child(3)::before {
+    content: none;
+  }
+  nav button {
+    display: none;
+  }
 }
 @media (max-width: 768px) {
 }

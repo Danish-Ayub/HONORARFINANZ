@@ -57,19 +57,19 @@ nav .links img {
   margin-right: 10px;
 }
 .banner {
-    padding-top: 25px;
-    width: 100%;
-    height: 682px;
-    position: relative;
+  padding-top: 25px;
+  width: 100%;
+  height: 682px;
+  position: relative;
 }
 .banner::before {
-    content: "";
-    background-image: url('images/banner-img.png');
-    background-size: cover;
-    position: absolute;
-    inset: 0 0 0 0;
-    background-color: white;
-    opacity: 0.5;
+  content: "";
+  background-image: url("images/banner-img.png");
+  background-size: cover;
+  position: absolute;
+  inset: 0 0 0 0;
+  background-color: white;
+  opacity: 0.2;
 }
 .banner .nav_ {
   display: flex;
@@ -78,8 +78,9 @@ nav .links img {
   position: relative;
 }
 .dropdown_main {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  margin-top: 11px;
 }
 .banner .nav_ .dropdown_ {
   font-size: 14px;
@@ -94,8 +95,51 @@ nav .links img {
   padding-bottom: 5px;
 }
 .banner .nav_ .dropdown_ img {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 .banner .nav_ .dropdown_:hover {
-    border-bottom: 2px solid var(--primary);
+  border-bottom: 2px solid var(--primary);
+}
+.nav_ .logo {
+  width: 236px;
+  height: 50px;
+}
+.banner .content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 139px;
+}
+.banner .content h1 {
+  color: #55565a;
+  font-size: 54px;
+  font-weight: 500;
+  width: 590px;
+  border-bottom: 3px solid var(--primary);
+  margin-bottom: 25px;
+  padding-bottom: 8px;
+}
+.banner .content h1 span {
+  font-weight: 900;
+}
+.banner .content p {
+  width: 600px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #55565a;
+  margin-bottom: 35px;
+}
+.banner .content button {
+  width: 306px;
+  height: 45px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: var(--primary);
+  border-radius: 25px;
+  border: none;
 }
