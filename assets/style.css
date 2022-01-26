@@ -480,14 +480,20 @@ section {
   border-radius: 8px;
   opacity: 1;
   padding: 35px;
-  margin: 30px 40px 40px 0px;
+  margin: 0 0 40px 0px;
   cursor: pointer;
+  min-height: 220px;
 }
 .process_heading {
   display: flex;
+  align-items: center;
   margin-bottom: 25px;
 }
+.process_heading img {
+  margin-right: 10px;
+}
 .process_heading h5 {
+  margin: 0;
   font-size: 18px;
   color: #906d4e;
   font-weight: 500;
@@ -495,4 +501,33 @@ section {
 .process-div p {
   font-size: 14px;
   color: #55565a;
+}
+
+.strategy-div-main {
+  padding: 50px 0 0 0;
+  background-color: #fffcf9;
+}
+
+.strategy-div-main button {
+  width: 314px;
+  height: 45px;
+  border: 1px solid #906d4e;
+  border-radius: 23px;
+  border: 1px solid #906d4e;
+  margin-bottom: 50px;
+  background-color: transparent;
+  color: #906d4e;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.strategy-div-main p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #55565a;
+}
+
+.startegy-top-cards {
+  margin-bottom: 98px;
 }
