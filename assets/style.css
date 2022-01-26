@@ -474,3 +474,25 @@ section {
   margin: 0;
   color: #906d4e;
 }
+
+.process-div {
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 8px;
+  opacity: 1;
+  padding: 35px;
+  margin: 30px 40px 40px 0px;
+  cursor: pointer;
+}
+.process_heading {
+  display: flex;
+  margin-bottom: 25px;
+}
+.process_heading h5 {
+  font-size: 18px;
+  color: #906d4e;
+  font-weight: 500;
+}
+.process-div p {
+  font-size: 14px;
+  color: #55565a;
+}
