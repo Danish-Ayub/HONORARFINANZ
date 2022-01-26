@@ -14,6 +14,48 @@
     <link rel="stylesheet" href="assets/responsive.css">
 </head>
 <body>
+    <!-- SIDE MENU -->
+        <div class="sidebar-backdrop"></div>
+        <div class="sidebar-menu">
+            <div class="d-flex justify-content-between align-items-center head">
+                <a href="/" class="flex-center"><img src="assets/images/logo-grey.png" alt="Logo" class="logo" width="120px"></a>
+                <img class="sidebar-close" src="assets/images/close-dark.svg" alt="x" width="18px" />
+            </div>
+            <div class="body">
+                <div>
+                    <a href="https://warmprospect.com/about/" class="sidebar-links">HOME</a>
+                    <div class="position-relative">
+                        <a href="javascript:void(0);" class="sidebar-links sidebar_dropdown_btn">SERVICES</a>
+                        <div class="sidebar_dropdown" style="display: none;">
+                            <a href="">Fee Advice</a>
+                            <a href="">Retirement Provision</a>
+                            <a href="">Investment Advice</a>
+                            <a href="">Portfolio Management</a>
+                        </div>
+                    </div>
+                    <div class="position-relative">
+                        <a href="javascript:void(0);" class="sidebar-links sidebar_dropdown_btn">About Us</a>
+                        <div class="sidebar_dropdown" style="display: none;">
+                            <a href="">Mission</a>
+                            <a href="">Investment Philosophy</a>
+                            <a href="">Compliance</a>
+                            <a href="">Hurry</a>
+                            <a href="">Career</a>
+                            <a href="">Video Center</a>
+                        </div>
+                    </div>
+                    <a href="" class="sidebar-links">HONORARY ADVISOR</a>
+                    <a href="" class="sidebar-links">SEMINARS</a>
+                    <a href="" class="sidebar-links">ETF ADVISOR</a>
+                    <a href="" class="sidebar-links mb-5">FREQUENTLY ASKED QUESTION</a>
+                </div>
+                <div>
+                    <a href="#"><button class="w-100 sidebar_btn">Depot Login</button></a>
+                </div>
+            </div>
+        </div>
+    <!-- /SIDE MENU -->
+
     <div class="bg-primary">
         <div class="container">
             <nav>
@@ -41,18 +83,38 @@
         <div class="container">
             <div class="nav_">
                 <img src="assets/images/logo-grey.png" alt="LOGO" class="logo" />
+
+                <img src="assets/images/menu.svg" alt="MENU" id="nav_toggle" />
                 <div class="dropdown_main">
                     <div class="dropdown_">
                         <img src="assets/images/right-arrow.svg" alt=">">
                         HOME
                     </div>
-                    <div class="dropdown_">
-                        <img src="assets/images/right-arrow.svg" alt=">">
-                        SERVICES
+                    <div class="position-relative">
+                        <div class="dropdown_">
+                            <img src="assets/images/right-arrow.svg" alt=">">
+                            SERVICES
+                        </div>
+                        <div class="dropdown_menu">
+                            <a href="">fee advice</a>
+                            <a href="">retirement provision</a>
+                            <a href="">investment advice</a>
+                            <a href="">potfolio management</a>
+                        </div>
                     </div>
-                    <div class="dropdown_">
-                        <img src="assets/images/right-arrow.svg" alt=">">
-                        ABOUT US
+                    <div class="position-relative">
+                        <div class="dropdown_">
+                            <img src="assets/images/right-arrow.svg" alt=">">
+                            ABOUT US
+                        </div>
+                        <div class="dropdown_menu">
+                            <a href="">mission</a>
+                            <a href="">investment philosophy</a>
+                            <a href="">compliance</a>
+                            <a href="">hurry</a>
+                            <a href="">career</a>
+                            <a href="">video center</a>
+                        </div>
                     </div>
                     <div class="dropdown_">
                         <img src="assets/images/right-arrow.svg" alt=">">
@@ -73,7 +135,7 @@
                 </div>
             </div>
             <div class="content">
-                <h1>Your <span>investor coach</span> for efficient investments</h1>
+                <h1>Your <span style="font-weight: 900;">investor coach</span> for <span style="font-weight: 500;">efficient investments</span></h1>
                 <p>Only those who reduce the costs of their investments to a minimum and act calmly on the capital markets can look forward to a positive performance. This doubles the return on your system compared to standard solutions.</p>
                 <button>More About Investment Advice</button>
             </div>
@@ -82,5 +144,6 @@
 
 </body>
 <script src="assets/jquery-3.6.0.min.js"></script>
-<script src="assets/bootstrap.min.css"></script>
+<script src="assets/bootstrap.bundle.min.js"></script>
+<script src="assets/web.js"></script>
 </html>

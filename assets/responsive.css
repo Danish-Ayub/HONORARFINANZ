@@ -1,6 +1,17 @@
+@media (max-width: 1200px) {
+  .dropdown_main {
+    display: none;
+  }
+  #nav_toggle {
+    display: block;
+  }
+}
 @media (max-width: 992px) {
   nav {
     justify-content: center;
+  }
+  nav .links:nth-child(3) {
+    margin: 0;
   }
   nav .links:nth-child(3)::before {
     content: none;
@@ -10,6 +21,34 @@
   }
 }
 @media (max-width: 768px) {
+  nav {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 100px;
+  }
+  nav .links {
+    width: 48%;
+    margin: 0;
+  }
+  nav .links::before {
+    content: none;
+  }
+  .banner .content h1 {
+    font-size: 30px;
+  }
+  .banner .content h1,
+  .banner .content p {
+    width: 100%;
+  }
+  .banner {
+    height: 500px;
+  }
+  .banner .content {
+    margin-top: 100px;
+  }
 }
 @media (max-width: 576px) {
+  nav .links {
+    width: 100%;
+  }
 }
