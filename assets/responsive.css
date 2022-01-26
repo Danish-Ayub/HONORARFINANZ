@@ -6,7 +6,24 @@
     display: block;
   }
 }
+@media (min-width: 992px) {
+  .w-50-lg {
+    width: 50%;
+  }
+  .w-70-lg {
+    width: 70%;
+  }
+}
 @media (max-width: 992px) {
+  .fee-adv-video p {
+    margin-top: 50px;
+  }
+  .ughh {
+    margin-bottom: 40px;
+  }
+  .startegy-top-cards {
+    margin-bottom: 0;
+  }
   nav {
     justify-content: center;
   }
