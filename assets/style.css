@@ -315,9 +315,9 @@ section {
 }
 
 #fee-advice {
-  background: url(images/dots-bg.svg) no-repeat top left,
-    url(images/bg-texture-layer.svg) no-repeat bottom -50px right -200px,
-    url(images/bg-circle.svg) no-repeat top 520px left 200px;
+  background: url(images/dots-bg.svg) no-repeat top left -15px,
+    url(images/bg-texture-layer.svg) no-repeat center right -200px,
+    url(images/bg-circle.svg) no-repeat top 570px left 311px;
 }
 
 .fee-adv-text h5 {
@@ -332,6 +332,7 @@ section {
 .fee-adv-video p{
   font-size: 14px;
   text-align: left;
+  margin-bottom: 9px;
 }
 .fee-adv-video span{
   color: #906D4E;
