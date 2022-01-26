@@ -278,9 +278,13 @@ nav .links img {
 
 .section-para p {
   font-size: 14px;
-  color: #55565a;
+  color: #55565A;
   text-align: center;
   font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 810px;
 }
 
 .header-underline {
@@ -311,8 +315,9 @@ section {
 }
 
 #fee-advice {
-  background: url(assets/images/dots-bg.svg) no-repeat top left,
-    url(assets/images/bg-texture-layer.svg) no-repeat bottom -50px right -200px;
+  background: url(images/dots-bg.svg) no-repeat top left,
+    url(images/bg-texture-layer.svg) no-repeat bottom -50px right -200px,
+    url(images/bg-circle.svg) no-repeat top 520px left 200px;
 }
 
 .fee-adv-text h5 {
@@ -324,7 +329,20 @@ section {
   font-size: 14px;
   font-weight: 300;
 }
-
+.fee-adv-video p{
+  font-size: 14px;
+  text-align: left;
+}
+.fee-adv-video span{
+  color: #906D4E;
+  font-weight: 500;
+}
+.fee-adv-video a{
+  color: #906D4E;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: underline;
+}
 .owl-logos {
   display: flex;
   justify-content: center;
