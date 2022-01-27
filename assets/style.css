@@ -292,6 +292,7 @@ button.btn_hover:hover{
   font-weight: 300;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
   width: 100%;
   max-width: 810px;
 }
@@ -444,19 +445,19 @@ section {
   padding: 80px 0;
 }
 .ughh:hover {
-  background-color: #906d4e;
-  color: white;
+  background-color: #ffffff;
+  color: #906d4e;
 }
 .ughh:hover h1 {
-  color: white;
+  color: #906d4e;
 }
 .ughh:hover p {
-  color: white;
+  color: #906d4e;
 }
 .ughh {
   transition: 0.1s ease;
   cursor: pointer;
-  background-color: #ffffff;
+  background-color: #906d4e;
   box-shadow: 0px 0px 12px #0000001a;
   border-radius: 8px;
   padding: 28px 35px 40px 35px;
@@ -559,7 +560,7 @@ section {
 }
 
 .startegy-top-cards {
-  margin-bottom: 98px;
+  margin-bottom: 60px;
 }
 
 .back_img-top {
