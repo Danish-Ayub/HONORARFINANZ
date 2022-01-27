@@ -22,6 +22,34 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .video-series-btn button {
+            color: #906d4e;
+            font-size: 11px;
+
+        }
+
+        .align-items-end {
+            -ms-flex-align: start !important;
+            align-items: flex-start !important;
+        }
+
+        .fee-av-card {
+            height: auto;
+        }
+
+        .read_more_btn {
+
+            margin-top: 69px !important;
+
+        }
+
+        #fee-advice {
+            background: url(assets/images/dots-bg.svg) no-repeat top left -15px,
+                url(assets/images/bg-texture-layer.svg) no-repeat bottom -20px right -200px,
+                url(assets/images/bg-circle.svg) no-repeat top 540px left 311px;
+        }
+    </style>
 </head>
 
 <body>
@@ -144,15 +172,16 @@
                 </div>
             </div>
             <div class="content">
-                <h1><span style="font-weight: 900;">Retirement provision</span> means <span style="font-weight: 500;">financial freedom</span>
+                <h1><span style="font-weight: 900;">Retirement provision</span> means <span
+                        style="font-weight: 500;">financial freedom</span>
                 </h1>
                 <!-- <p>Only those who reduce the costs of their investments to a minimum and act calmly on the capital
                     markets can look forward to a positive performance. This doubles the return on your system compared
                     to standard solutions.</p> -->
-                    <div class="brand_logos mb-5">
-                        <img width="218" height="42" style="margin-right: 20px;" src="assets/images/banner_logo1.png">
-                        <img width="100"  height="42" src="assets/images/banner_logo2.png">
-                    </div>
+                <div class="brand_logos mb-5">
+                    <img width="218" height="42" style="margin-right: 20px;" src="assets/images/banner_logo1.png">
+                    <img width="100" height="42" src="assets/images/banner_logo2.png">
+                </div>
                 <button class="btn_hover">Contact Us Here</button>
             </div>
         </div>
@@ -205,17 +234,75 @@
     <!-- fee advice section starts -->
     <section id="fee-advice" class="my-3">
         <div class="container">
+            <div class="section-heading my-5">
+                <h5>Decide for yourself what goals you want to achieve when you retire</h5>
+                <span class="header-underline d-block mx-auto"></span>
+            </div>
+            <!-- <div class="section-para mt-2">
+                <p>We have specialized in three core areas, so that we can offer our clients fee-based advice as an
+                    independent financial service free of any conflicts of interest: financial and wealth planning,
+                    retirement planning and investment advice. Where can our fee consultants start and support you?
+                </p>
+            </div> -->
             <div class="row" style="margin-bottom: 120px;">
+                <div class="col-lg-11">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto">
+                            <div class="row ml-md-5">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="fee-av-card">
+                                        <img src="assets/images/financial-planning.svg" class="fee-av-card_img">
+                                        <h5>Financial security</h5>
+                                        <p>I want to achieve financial security in old age. Without having to work, I
+                                            would like to be able to completely cover my private expenses. My entire
+                                            livelihood should be covered by passive income.</p>
+                                        <!-- <div class="read_more_btn"><a href="#">Read More</a></div> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="fee-av-card">
+                                        <img src="assets/images/Retirement Planning.svg" class="fee-av-card_img">
+                                        <h5>Financial Vitality</h5>
+                                        <p>In addition to financial security, I would also like to gain financial
+                                            vitality and be able to afford the nice things in life in old age. Travel,
+                                            going to restaurants and a little luxury are important to me, even in old
+                                            age.</p>
+                                        <!-- <div class="read_more_btn mid_more_btn"><a href="#">Read More</a></div> -->
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="fee-av-card">
+                                        <img src="assets/images/investment-advice.svg" class="fee-av-card_img">
+                                        <h5>Financial independence</h5>
+                                        <p>I want to achieve financial independence and freedom. I don't want to have to
+                                            work anymore for the lifestyle I have today. I want to live where I want and
+                                            do what I want.</p>
+                                        <!-- <div class="read_more_btn right_more_btn"><a href="#">Read More</a></div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
                 <div class="fee-adv-text col-lg-6">
                     <h5>What brings the highest return? You are your most important asset!
                         <!-- <br>
-                        Choose an outstanding investment experience. -->
+                    Choose an outstanding investment experience. -->
                     </h5>
                     <span class="header-underline d-block mx-auto mb-4 w-100"></span>
-                    <p>When planning your retirement, don't forget to protect your most important asset and the greatest source of return – yourself . Our fee-based consultants will be happy to help you to protect yourself. Whether an occupational disability insurance or rather a serious illness insurance is suitable for you?
+                    <p>When planning your retirement, don't forget to protect your most important asset and the greatest
+                        source of return – yourself . Our fee-based consultants will be happy to help you to protect
+                        yourself. Whether an occupational disability insurance or rather a serious illness insurance is
+                        suitable for you?
                         <br>
                         <br>
-                        Is your daily sickness allowance adequately secured or does accident insurance make sense for you? What about long-term care insurance or life insurance for old-age provision? As part of an independent consultation on old-age provision, we will show you exactly which security and which contracts are most suitable for your human capital. The advice is inexpensive and powerful, fast and uncomplicated.
+                        Is your daily sickness allowance adequately secured or does accident insurance make sense for
+                        you? What about long-term care insurance or life insurance for old-age provision? As part of an
+                        independent consultation on old-age provision, we will show you exactly which security and which
+                        contracts are most suitable for your human capital. The advice is inexpensive and powerful, fast
+                        and uncomplicated.
                     </p>
                     <div class="continue_btn text-center my-5">
                         <a href="#"><button>Make an appointment for a pension consultation now</button></a>
@@ -226,75 +313,57 @@
                     <p>Here's why you need a truly independent <span>fee-based investment </span>advisor by your side:
                     </p>
                     <!-- <iframe width="100%" height="325px" style="border-radius: 10px;"
-                        src="https://www.youtube.com/embed/vi0uafNYja8" title="YouTube video player" frameborder="0"
+                    src="https://www.youtube.com/embed/vi0uafNYja8" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe> -->
+                    <iframe width="100%" height="325px" style="border-radius: 10px;"
+                        src="https://www.youtube.com/embed/gT8H4tfhOSw" title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe> -->
-                        <iframe width="100%" height="325px" style="border-radius: 10px;"
-                         src="https://www.youtube.com/embed/gT8H4tfhOSw" title="YouTube video player" 
-                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                         allowfullscreen></iframe>
+                        allowfullscreen></iframe>
                     <p class="text-center my-1"><a href="#">More videos in our video center</a></p>
-                </div>
-            </div>
-            <div class="section-heading mb-5">
-                <h5>The Honorarfinanz AG is known from</h5>
-                <span class="header-underline d-block mx-auto"></span>
-            </div>
-            <div class="section-para mt-2">
-                <p>We have specialized in three core areas, so that we can offer our clients fee-based advice as an
-                    independent financial service free of any conflicts of interest: financial and wealth planning,
-                    retirement planning and investment advice. Where can our fee consultants start and support you?
-                </p>
-            </div>
-            <div class="row" style="margin-top: 35px;">
-                <div class="col-lg-11">
-                    <div class="row">
-                        <div class="col-lg-12 mx-auto">
-                            <div class="row ml-md-5">
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="fee-av-card">
-                                        <img src="assets/images/financial-planning.svg" class="fee-av-card_img">
-                                        <h5>Financial Planning</h5>
-                                        <p>Financial planning sheds light on your finances. Liquidity, provision and
-                                            investments can
-                                            thus be
-                                            optimally coordinated.</p>
-                                        <div class="read_more_btn"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="fee-av-card">
-                                        <img src="assets/images/Retirement Planning.svg" class="fee-av-card_img">
-                                        <h5>Retirement Planning</h5>
-                                        <p>Do I have a pension gap? How much do I actually need to save? What will it
-                                            look
-                                            like
-                                            later in old
-                                            age and in retirement? We calculate your retirement and retirement planning
-                                            plan.</p>
-                                        <div class="read_more_btn mid_more_btn"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4">
-                                    <div class="fee-av-card">
-                                        <img src="assets/images/investment-advice.svg" class="fee-av-card_img">
-                                        <h5>Investment Advice</h5>
-                                        <p>Invest globally with ETFs in up to 15,000 companies. Highly efficient,
-                                            commission-free
-                                            and
-                                            tailored to your personal risk profile.</p>
-                                        <div class="read_more_btn right_more_btn"><a href="#">Read More</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- fee advice section ends -->
 
+    <div class="container" style="margin-bottom: 80px;">
+        <div class="section-heading" style="margin-bottom: 65px;">
+            <h5>What our independent advice on retirement provision has in store for you
+            </h5>
+            <span class="header-underline d-block mx-auto"></span>
+        </div>
+        <div class="row d-flex justify-content-between align-items-end">
+            <div class="col-md-6">
+                <div class="video-series-text">
+                    <p>We work with you to calculate how you can make your dreams come true in old age. When it comes to
+                        retirement planning, a number of questions arise that you can clarify with your fee-based
+                        advisor during a retirement planning consultation. With our retirement planning, we simulate
+                        your future in old age.<br><br> Is your money and your basic pension sufficient to meet your
+                        standard of living requirements? <br>
+                        How can a supply gap that arises from the statutory pension insurance alone be closed? Which
+                        investment strategy for retirement is right for you? We look into all these questions in the
+                        fee-based advice on old-age provision - of course completely neutral.<br> <br>The simulation is
+                        carried out with various life expectancy and inflation scenarios. Based on this, a possible
+                        supply gap is determined.
+
+                        As a result, solutions to close the pension gap are calculated based on personal requirements
+                        and tax requirements and simulated according to profitability.<br> <br>The result of the advice
+                        on old-age provision, which is completely independent, is an individual and precise financial
+                        plan for the implementation of your dreams and wishes. <br> Find out what type of investment you
+                        are and which products are suitable for you. Protect yourself for old age and look back on high
+                        returns through commission-free and low-cost products.</p>
+                </div>
+                <div class="video-series-btn text-center my-5">
+                    <button class="btn_hover">Create your retirement plan together with your independent fee-based
+                        consultant</button>
+                </div>
+            </div>
+            <div class="col-md-6 text-right">
+                <img src="assets/images/video-series.svg" alt="">
+            </div>
+        </div>
+    </div>
     <!-- Free service for testing starts -->
     <div class="free-testing-div">
         <div class="container">
@@ -307,7 +376,7 @@
                     <div class="row">
                         <div class="col-md-6 pr-lg-5">
                             <div class="ughh" style="background-image: url('assets/images/digital-finance-back.png');">
-                                <img src="assets/images/digital-finance.svg" class="svg"  />
+                                <img src="assets/images/digital-finance.svg" class="svg" />
                                 <h1>Digital financial planning</h1>
                                 <p>Test our digital financial planning online for a whole month completely free of
                                     charge
