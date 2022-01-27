@@ -69,6 +69,11 @@ nav .links svg {
   height: 682px;
   position: relative;
 }
+/* .brand_logos img{
+  width: auto;
+  height: 56px;
+} */
+
 .banner::before {
   content: "";
   background-image: url("images/banner-img.png");
