@@ -18,7 +18,7 @@ $(document).ready(function () {
         margin: 10,
         loop: true,
         nav: true,
-        navText: ["<div class='nav-btn prev-slide'><img src='assets/images/left-arrow.svg'></div>", "<div class='nav-btn next-slide'><img src='assets/images/right-arrow1.svg'></div>"],
+        navText: ["<div class='nav-btn prev-slide'><img src='../assets/images/left-arrow.svg'></div>", "<div class='nav-btn next-slide'><img src='../assets/images/right-arrow1.svg'></div>"],
         responsive: {
             0: {
                 items: 1
