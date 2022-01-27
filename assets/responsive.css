@@ -5,6 +5,16 @@
   #nav_toggle {
     display: block;
   }
+  .fee-av-card {
+    height: 367px;
+    margin-bottom: 40px;
+}
+    
+
+.right_more_btn{
+  margin-top: 52px;
+
+}
 }
 @media (min-width: 992px) {
   .w-50-lg {
