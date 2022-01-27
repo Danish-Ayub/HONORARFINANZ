@@ -11,7 +11,7 @@ input,
 button {
   outline: none;
 }
-.top-header{
+.top-header {
   background-color: #f3f3f3;
 }
 nav {
@@ -38,7 +38,7 @@ nav button img {
   margin-right: 10px;
 }
 nav .links {
-  color: #906D4E;
+  color: #906d4e;
   font-size: 14px;
   font-weight: 300;
   text-transform: uppercase;
@@ -54,7 +54,7 @@ nav .links::before {
   position: absolute;
   height: 30px;
   width: 1px;
-  background-color: #906D4E;
+  background-color: #906d4e;
   /* top: -9px; */
   right: -34px;
 }
@@ -174,7 +174,7 @@ nav .links svg {
   border-radius: 25px;
   border: 1px solid var(--primary);
 }
-button.btn_hover:hover{
+button.btn_hover:hover {
   background-color: var(--primary);
   color: #ffffff;
 }
@@ -437,7 +437,7 @@ section {
   margin-top: 69px;
   visibility: hidden;
 }
-.mid_more_btn{
+.mid_more_btn {
   margin-top: 28px;
 }
 .read_more_btn a {
@@ -639,14 +639,15 @@ section {
 
 .up-to-date-div {
   margin-bottom: 35px;
-  box-shadow: 0px 3px 6px #00000029;
   border-radius: 8px;
   min-height: 213px;
   display: flex;
   justify-content: space-between;
   background-color: white;
 }
-
+.up-to-date-div:hover {
+  box-shadow: 0px 3px 6px #00000029;
+}
 .ut-date {
   background: #906d4e;
   border-radius: 8px 0px 0px 8px;
