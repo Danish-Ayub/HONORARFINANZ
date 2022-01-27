@@ -36,6 +36,12 @@
   nav button {
     display: none;
   }
+  .owl-prev {
+    top: -78%;
+  }
+  .owl-next {
+    top: -78%;
+  }
 }
 @media (max-width: 768px) {
   nav {
@@ -62,6 +68,14 @@
   }
   .banner .content {
     margin-top: 100px;
+  }
+}
+@media (max-width: 620px) {
+  .owl-prev {
+    margin-left: -8px;
+  }
+  .owl-next {
+    right: -2px;
   }
 }
 @media (max-width: 576px) {
