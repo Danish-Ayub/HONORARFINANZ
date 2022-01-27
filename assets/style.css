@@ -391,6 +391,7 @@ section {
 .fee-av-card {
   padding: 48px 35px 21px 35px;
   position: relative;
+  height: 328px;
 }
 .fee-av-card:hover::before {
   content: "";
@@ -430,8 +431,11 @@ section {
 }
 .read_more_btn {
   text-align: center;
-  margin-top: 45px;
+  margin-top: 69px;
   visibility: hidden;
+}
+.mid_more_btn{
+  margin-top: 28px;
 }
 .read_more_btn a {
   font-size: 14px;
