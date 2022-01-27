@@ -60,6 +60,8 @@ nav .links::before {
 }
 nav .links svg {
   margin-right: 10px;
+  fill: var(--primary);
+  stroke: var(--primary);
 }
 .banner {
   padding-top: 25px;
@@ -450,18 +452,18 @@ section {
 }
 .ughh:hover {
   background-color: #ffffff;
-  color: #906d4e;
+  color: var(--primary);
 }
 .ughh:hover h1 {
-  color: #906d4e;
+  color: var(--primary);
 }
 .ughh:hover p {
-  color: #906d4e;
+  color: var(--primary);
 }
 .ughh {
   transition: 0.1s ease;
   cursor: pointer;
-  background-color: #906d4e;
+  background-color: var(--primary);
   box-shadow: 0px 0px 12px #0000001a;
   border-radius: 8px;
   padding: 28px 35px 40px 35px;
@@ -478,14 +480,14 @@ section {
 .ughh svg,
 .ughh svg g,
 .ughh svg path {
-  fill: var(--primary);
-  stroke: var(--primary);
+  fill: #ffffff;
+  stroke: #ffffff;
 }
 .ughh:hover svg,
 .ughh:hover svg g,
 .ughh:hover svg path {
-  fill: white !important;
-  stroke: white !important;
+  fill: var(--primary) !important;
+  stroke: var(--primary) !important;
 }
 
 .ughh h1 {
@@ -493,7 +495,7 @@ section {
   margin: 0;
   font-size: 24px;
   font-weight: 500;
-  color: #906d4e;
+  color: #ffffff;
 }
 
 .ughh p {
@@ -501,7 +503,7 @@ section {
   font-size: 14px;
   font-weight: 400;
   margin: 0;
-  color: #906d4e;
+  color: #ffffff;
 }
 
 .process-div {
