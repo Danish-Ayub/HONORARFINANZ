@@ -325,7 +325,7 @@ section {
   border: 1px solid #906d4e;
   border-radius: 23px;
   opacity: 1;
-  background: #fff;
+  background: transparent;
   color: #906d4e;
   padding: 12px 98px;
 }
