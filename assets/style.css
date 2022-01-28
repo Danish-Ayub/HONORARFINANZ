@@ -833,7 +833,7 @@ footer h6 {
 .email-check input {
   margin-right: 13px;
 }
-footer button {
+footer button,.register-1{
   width: 100%;
   height: 45px;
   background: #00a0d2;
