@@ -14,9 +14,9 @@ button {
 .top-header {
   background-color: #f3f3f3;
 }
-ul li{
+/* ul li{
   list-style: none;
-}
+} */
 nav {
   width: 100%;
   height: 50px;
@@ -902,7 +902,7 @@ footer button,.register-1{
 }
 .mini-cards::before {
   content: "";
-  width: 128px;
+  width: 30px;
   height: 4px;
   border-radius: 5px;
   background: #906d4e;
@@ -911,4 +911,132 @@ footer button,.register-1{
   transform: translateX(-50%);
   position: absolute;
   z-index: 1;
+}
+
+
+/* asad's css */
+.Your_finance_expert_content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.Your_finance_expert_heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.Your_finance_expert_heading h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 28px;
+  color: #55565a;
+  border-bottom: 3px solid #906d4e;
+  margin: 0px;
+  padding-bottom: 20px;
+  width: 25%;
+  margin-bottom: 40px;
+}
+
+.men_img_2 {
+  width: 30%;
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.men_img_2 img {
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  border-radius: 200px;
+  /* / margin-top: -120px; / */
+  border: 2px solid #fff;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.men_img_2 h5 {
+  margin-top: 40px;
+  /* / margin-bottom: 40px; / */
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #55565a;
+  border-bottom: 3px solid #906d4e;
+  /* / margin: 0px; / */
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.ut-text-para p a {
+  color: #906d4e !important;
+  font-weight: 800;
+  text-decoration: underline !important;
+}
+
+.icon {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.facebook a, .youtube a, .linkedin a {
+  color: #906d4f;
+  cursor: pointer;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.facebook a, .youtube a, .linkedin a:hover {
+  color: #906d4e !important;
+}
+
+.Your_finance_expert_para p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 30px !important;
+}
+
+.Your_finance_expert_main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.Your_finance_expert_para {
+  width: 63%;
+}
+
+.Your_finance_expert_card {
+  display: flex;
+  width: 70%;
+  justify-content: flex-start;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 20px;
+  align-items: center;
+  flex-flow: wrap row;
+}
+
+.image {
+  width: 2%;
+  border-right: 3px solid #906d4e;
+  height: 200px;
+  margin-right: 40px;
+}
+
+.All_posts_by_Davor{
+  background-color: transparent !important;
 }
