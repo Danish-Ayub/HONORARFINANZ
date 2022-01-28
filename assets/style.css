@@ -1206,3 +1206,308 @@ footer button,
 .dropdown_ a:hover {
   color: inherit;
 }
+.video-series-btn button {
+  color: #906d4e;
+  font-size: 11px;
+
+}
+
+.align-items-end {
+  -ms-flex-align: start !important;
+  align-items: flex-start !important;
+}
+
+.fee-av-card {
+  height: auto;
+}
+
+.read_more_btn {
+
+  margin-top: 69px !important;
+
+}
+
+#fee-advice {
+  background: url(../assets/images/dots-bg.svg) no-repeat top left -15px,
+      url(../assets/images/bg-texture-layer.svg) no-repeat bottom -20px right -200px;
+
+}
+
+.video-series-btn button,
+.continue_btn button {
+  padding: 12px 60px;
+}
+
+.investment_btn {
+  width: 492px;
+}
+
+.You-might-also-be-interested {
+  width: 433px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.top-heading {
+  background-color: #f3f2ee;
+  height: 68px;
+  padding: 10px;
+  color: #906d4f;
+}
+
+.release-date {
+  color: #cacaca;
+  font-weight: 400;
+}
+
+.release-date p {
+  margin-bottom: 10px;
+}
+
+.you-migh-interested-para p {
+  padding: 10px;
+  text-align: justify;
+}
+
+.Find-a-consultant button,
+.Do-you-still-have-btn button {
+  border: 1px solid #906d4e;
+  border-radius: 23px;
+  opacity: 1;
+  background: #fff;
+  color: #906d4e;
+  padding: 12px 98px;
+}
+
+.Do-you-still-have-img img {
+  max-width: 139px;
+  height: auto;
+  border-radius: 100px;
+  border: 7px solid #fff;
+  background-color: #fff;
+}
+
+.Do-you-still-have-heading {
+  font-size: 24px;
+  color: #55565a;
+  text-align: center;
+  font-weight: 700;
+}
+
+.Customer-centric-links-side ul li {
+  list-style: none;
+}
+
+.contact-now button {
+  border: 1px solid #906d4e;
+  border-radius: 23px;
+  opacity: 1;
+  background: transparent;
+  color: #906d4e;
+  padding: 12px 60px;
+}
+
+.contact-now button:hover {
+  background: #906d4e;
+  color: white;
+}
+
+.email-check-1 {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0px;
+  color: #55565a;
+  display: flex;
+  align-items: flex-start;
+}
+
+.email-check-1 input {
+  margin-right: 13px;
+}
+
+.email-input-main-1 {
+  height: 45px;
+  width: 100%;
+  border: 1px solid #00000059;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.email-input-main-1 input {
+  text-align: left;
+  font-size: 17px;
+  font-weight: 300;
+  flex: 1;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+.sign-up-for h6 {
+  color: #55565a;
+}
+
+.register-1 {
+  background: transparent;
+  border: 1px solid #906d4e;
+  color: #906d4e;
+
+}
+
+.Customer-centric-heading {
+  color: #55565a;
+}
+
+.link-heading {
+  color: #906d4e;
+}
+
+.Customer-centric-img {
+  margin-bottom: 22px;
+}
+
+.link-heading {
+  display: flex;
+  text-align: center;
+  align-items: end;
+}
+
+.link-heading h6 {
+  margin-bottom: 0px;
+}
+
+.Customer-centric-icons img {
+  width: 16px;
+  margin-right: 5px;
+}
+
+/* <!-- your finance expert start here  -->  */
+.Your_finance_expert_content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.Your_finance_expert_heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.Your_finance_expert_heading h1 {
+  font-weight: 700;
+  text-align: center;
+  font-size: 28px;
+  color: #55565a;
+  border-bottom: 3px solid #906d4e;
+  margin: 0px;
+  padding-bottom: 20px;
+  width: 25%;
+  margin-bottom: 40px;
+}
+
+.men_img_2 {
+  width: 30%;
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.men_img_2 img {
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  border-radius: 200px;
+  /* / margin-top: -120px; / */
+  border: 2px solid #fff;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.men_img_2 h5 {
+  margin-top: 40px;
+  /* / margin-bottom: 40px; / */
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #55565a;
+  border-bottom: 3px solid #906d4e;
+  /* / margin: 0px; / */
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.ut-text-para p a {
+  color: #906d4e !important;
+  font-weight: 800;
+  text-decoration: underline !important;
+}
+
+.icon {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img_heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.facebook a,
+.youtube a,
+.linkedin a {
+  color: #906d4f;
+  cursor: pointer;
+  font-size: 30px;
+  margin: 10px;
+}
+
+.facebook a,
+.youtube a,
+.linkedin a:hover {
+  color: #906d4e !important;
+}
+
+.Your_finance_expert_para p {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 30px !important;
+}
+
+.Your_finance_expert_main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.Your_finance_expert_para {
+  width: 63%;
+}
+
+.Your_finance_expert_card {
+  display: flex;
+  width: 70%;
+  justify-content: flex-start;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 20px;
+  align-items: center;
+  flex-flow: wrap row;
+}
+
+.image {
+  width: 2%;
+  border-right: 3px solid #906d4e;
+  height: 200px;
+  margin-right: 40px;
+}
