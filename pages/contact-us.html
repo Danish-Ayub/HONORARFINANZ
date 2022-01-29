@@ -22,6 +22,23 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <style>
+        .banner{
+            height: 482px;
+        }
+        .banner::before {
+            content: "";
+            background-image: url(../assets/images/contact-us-bg.png);
+            background-size: cover;
+            position: absolute;
+            inset: 0 0 0 0;
+            background-color: white;
+            opacity: 0.2;
+        }
+    </style>
 </head>
 
 <body>
@@ -104,7 +121,7 @@
                         <a href="../index.html">HOME</a>
                     </div>
                     <div class="position-relative">
-                        <div class="dropdown_">
+                        <div class="dropdown_ active">
                             <img src="../assets/images/right-arrow.svg" alt=">">
                             SERVICES
                         </div>
@@ -112,13 +129,13 @@
                             <a href="fee-advice.html">fee advice</a>
                             <a href="retirement-provision.html">retirement provision</a>
                             <a href="investment-advice.html">investment advice</a>
-                            <a href="portfolio-management.html">potfolio management</a>
+                            <a href="portfolio-management.html">portfolio management</a>
                         </div>
                     </div>
                     <div class="position-relative">
-                        <div class="dropdown_ active">
+                        <div class="dropdown_">
                             <img src="../assets/images/right-arrow.svg" alt=">">
-                            <a href="about-us.html"> ABOUT US</a>
+                            <a href="about-us.html">ABOUT US</a>
                         </div>
                         <div class="dropdown_menu">
                             <a href="#">mission</a>
@@ -144,116 +161,126 @@
                 </div>
             </div>
             <div class="content">
-                <h1>Your <span style="font-weight: 900;">investor coach</span> for <span
-                        style="font-weight: 500;">efficient investments</span></h1>
-                <p>Only those who reduce the costs of their investments to a minimum and act calmly on the capital
-                    markets can look forward to a positive performance. This doubles the return on your system compared
-                    to standard solutions.</p>
-                <button class="btn_hover">More About Investment Advice</button>
+                <h1><span style="font-weight:500">We are happy to hear from them </span></h1>
             </div>
         </div>
     </div>
 
-    <!-- carousel section starts-->
-    <section id="section-OC">
-        <div class="container">
-            <div class="section-heading mb-5">
-                <h5>The Honorarfinanz AG is known from</h5>
-                <span class="header-underline d-block mx-auto"></span>
+    <!-- contact us start-->
+    <div class="section_1 container">
+        <div class="" id="container">
+            <div class="content1">
+                <div class="content_part_1">
+                    <div class="contact">
+                        <h5>Contact</h5>
+                        <p>Do you have questions about <a href="#">fee</a> -based advice or do you need help? We are
+                            happy
+                            to help. Simply arrange an appointment directly by e-mail or telephone.</p>
+                    </div>
+                </div>
+                <div class="content_part_2">
+                    <div class="heading">
+                        <h5>Honorarfinanz AG</h5>
+                        <p> Amalienbadstraße 41 </p>
+                        <p>76227 Karlsruhe</p>
+                    </div>
+                    <div class="contact_num">
+                        <p>Tel: +49 721-988995-10 </p>
+                        <p>Fax:+49 721-988995-29</p>
+                    </div>
+                    <div class="email_sms">
+                        <a href="#">info@honorarfinanz.ag</a>
+                    </div>
+                </div>
             </div>
-            <!-- owl-carousel -->
-            <div class="owl-carousel">
-                <div>
-                    <div class="owl-logos">
-                        <img src="../assets/images/fin_net_Logo_grau.png" alt="">
+            <div class="form">
+                <div class="form_heading_input">
+                    <div class="first_input">
+                        <div class="form_heading">
+                            <h5> First Name Last Name</h5>
+                        </div>
+                        <div class="name_input">
+                            <input type="text" name="" id="first_name">
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="owl-logos">
-                        <img src="../assets/images/logo-presse-handelsblatt.png" alt="">
+                    <div class="second_input">
+                        <div class="form_heading">
+                            <h5> What topic would you like advice on?</h5>
+                        </div>
+                        <div class="name_input">
+                            <select name="thema" id="">
+                                <option value="">Investment Advice</option>
+                                <option value="">financial planning</option>
+                                <option value="">retirement provision</option>
+                                <option value="">Other topic</option>
+                                <option value="">become a consultant</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="owl-logos">
-                        <img src="../assets/images/Image 1.png" alt="">
+                    <div class="third_input">
+                        <div class="form_heading">
+                            <h5> Phone Number</h5>
+                        </div>
+                        <div class="name_input">
+                            <input type="text" name="" id="first_name">
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="owl-logos">
-                        <img src="../assets/images/logo.wirtschaftswoche.png" alt="">
+                    <div class="forth_input">
+                        <div class="form_heading">
+                            <h5> E-mail Address</h5>
+                        </div>
+                        <div class="name_input">
+                            <input type="text" name="" id="first_name">
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="owl-logos">
-                        <img src="../assets/images/Logo-cash-online.png" alt="">
+                    <div class="fifth_input">
+                        <div class="form_heading">
+                            <h5>Residence</h5>
+                        </div>
+                        <div class="name_input">
+                            <input type="text" name="" id="first_name">
+                        </div>
                     </div>
-                </div>
-                <div>
-                    <div class="owl-logos">
-                        <img src="../assets/images/EuramS_Neu_bis_25mm_RGB-1.png" alt="">
+                    <div class="sixth_input">
+                        <div class="form_heading">
+                            <h5> Your Message (optional)</h5>
+                        </div>
+                        <div class="name_input">
+                            <textarea name="comment" id="textarea" form="usrform" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="seventh_input">
+                        <div class="check_box">
+                            <input type="checkbox" name="" id="first_name">
+                        </div>
+                        <div class="text_input">
+                            I have read the Privacy Policy note. I agree that my details from the contact form will
+                            be
+                            collected and processed to answer my request. Note: You can revoke your consent at any
+                            time
+                            for
+                            the future by sending an email to info @ honorarfinanz.ag.
+                        </div>
+                    </div>
+                    <div class="send_btn">
+                        <button class="btn">Send</button>
+                    </div>
+                    <div class="detail">
+                        <h5>Detailed information on handling user data can be found in our <a href="#">data protection
+                                declaration</a> .</h5>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- carousel section ends-->
-
-    <div class="container">
-        <div class="section-heading my-5">
-            <h5>About us</h5>
-            <span class="header-underline d-block mx-auto"></span>
-        </div>
-        <h2 class="quotes"><i>"A business is simply an idea that makes other people's lives better."</i></h2>
-        <p class="quote-arthur">Richard Branson - Virgin Founder</p>
-        <p class="theme-p">The Honorarfinanz AG is an institute for independent, fee-based investment advice. We are
-            customer driven, not commission driven, because your success is our mission.</p>
-        <p class="theme-p">Since we work with absolute transparency, we are also happy to be under government
-            supervision. We are one of the few companies in our industry to be listed in <span
-                style="font-weight: 500;">BaFin's fee-based investment advisory register</span>. But see for yourself:
-            To the Bafin Register of Honorary Investment Advisors</p>
-        <p class="theme-p pb-4">This approval is the guarantee for genuine, independent investment advice with an
-            absolute ban on accepting <span style="font-weight: 500;">commissions</span> . For you as a client, this
-            means nothing other than achieving your financial goals, because we put together the <span
-                style="font-weight: 500;">optimal investment strategy</span> for you instead of the most profitable
-            product.</p>
-        <div class="row">
-            <div class="col-md-6 mx-auto mb-5 pb-4">
-                <iframe width="100%" height="400px" src="https://www.youtube.com/embed/kO_TCf1ISQ8"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+    </div>
+    <!-- contact us end-->
+    <div class="row" style="margin-bottom: 70px;">
+        <div class="col-lg-8 mx-auto">
+            <div class="d-flex justify-content-between w-50 mx-auto">
+                <img src="../assets/images/Dsw.png" alt="">
+                <img src="../assets/images/badge.png" alt="">
             </div>
         </div>
-        <h2 class="quotes"><i>A positive customer experience was and
-                will continue to be decisive for everything we do."</i></h2>
-        <p class="quote-arthur">Davor Horvat, Member of the Board</p>
-
-        <div class="section-heading my-5">
-            <h5>Our company history</h5>
-            <span class="header-underline d-block mx-auto"></span>
-        </div>
-        <p class="theme-p">As early as 2009, we recognized that a business relationship based on partnership without
-            conflicts of interest in the area of ​​finance is only possible through an independent and commission-free
-            service. Even then, investors were given access to the capital markets under the company name "AVENTUS
-            FINANCE" via inexpensive index funds and net products, i.e. commission-free financial products.</p>
-        <p class="theme-p">In 2013, the company was renamed Honorarfinanz AG with the aim of offering competent and
-            professional advice to investors and consumers nationwide.</p>
-        <p class="theme-p">With the introduction of the law on fee-based investment advice in 2014, a new job profile
-            was created, which guarantees consumers the legal security of independent, commission-free investment
-            advice. Our activity was thus “officially” recognised.</p>
-        <p class="theme-p">On January 1st, 2016, Honorarfinanz AG was licensed by the German Bundesbank and BaFin
-            (Federal Financial Supervisory Authority) with admission to the institute for fee-based investment advice.
-        </p>
-        <p class="theme-p mb-5 pb-4">In the future, nationwide qualified fee-based investment advisors will act as
-            investor coaches in order to give investors access to individual and cost-efficient investment concepts.</p>
-            <div class="row" style="padding-bottom: 70px;">
-                <div class="col-lg-8 mx-auto">
-                    <div class="d-flex justify-content-between w-50 mx-auto">
-                        <img src="../assets/images/Dsw.png" alt="">
-                        <img src="../assets/images/badge.png" alt="">
-                    </div>
-                </div>
-            </div>
     </div>
 
     <footer>
@@ -301,8 +328,10 @@
                     <label for="check_" class="email-check">
                         <input type="checkbox" id="check_" />
                         I agree that Honorarfinanz AG will regularly send me information on the subject of finance.
-                        Click behavior, opening rates, user behavior and other parameters can be recorded and analyzed
-                        as part of the newsletter. The consent can be revoked at any time for the future. Details can be
+                        Click behavior, opening rates, user behavior and other parameters can be recorded and
+                        analyzed
+                        as part of the newsletter. The consent can be revoked at any time for the future. Details
+                        can be
                         found in the data protection declaration .
                     </label>
                     <button>Register</button>
