@@ -32,7 +32,10 @@ $(document).ready(function () {
         }
     });
 
+    // change language starts
     
+    // change language ends
+
     jQuery('img.svg').each(function() {
         var $img = jQuery(this);
         var imgID = $img.attr('id');

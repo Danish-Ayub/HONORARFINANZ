@@ -15,6 +15,20 @@ input,
 button {
   outline: none;
 }
+
+select{
+  border: none;
+  background-color: transparent;
+  color: #906d4e;
+  font-weight: 300;
+}
+/* select:not(name="themea"){
+  border: none;
+  background-color: transparent;
+  color: #906d4e;
+  font-weight: 300;
+} */
+
 .top-header {
   background-color: #f3f3f3;
 }
