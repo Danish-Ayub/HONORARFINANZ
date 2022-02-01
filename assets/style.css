@@ -16,7 +16,7 @@ button {
   outline: none;
 }
 
-select{
+select#change-lang{
   border: none;
   background-color: transparent;
   color: #906d4e;
@@ -1230,9 +1230,9 @@ footer button,
   align-items: flex-start !important;
 }
 
-.fee-av-card {
+/* .fee-av-card {
   height: auto;
-}
+} */
 
 .read_more_btn {
   margin-top: 69px !important;
