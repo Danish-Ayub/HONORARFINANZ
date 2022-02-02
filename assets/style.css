@@ -106,7 +106,7 @@ nav .links svg {
 }
 .banner .nav_ {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
   position: relative;
 }
@@ -799,7 +799,7 @@ footer {
 }
 .footer-logo {
   margin-bottom: 25px;
-  width: 265px;
+  width: 230px;
 }
 footer h2 {
   text-align: left;
